@@ -14,6 +14,7 @@
 		ADEBC2CB2105D7CC00712E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEBC2C92105D7CC00712E82 /* LaunchScreen.storyboard */; };
 		ADEBC2D62105D7CC00712E82 /* LeisureMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2D52105D7CC00712E82 /* LeisureMapTests.swift */; };
 		ADEBC2E12105D7CC00712E82 /* LeisureMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2E02105D7CC00712E82 /* LeisureMapUITests.swift */; };
+		ADEBC2F42105DB0600712E82 /* SplashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2F32105DB0600712E82 /* SplashTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ADEBC2DC2105D7CC00712E82 /* LeisureMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeisureMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEBC2E02105D7CC00712E82 /* LeisureMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureMapUITests.swift; sourceTree = "<group>"; };
 		ADEBC2E22105D7CC00712E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEBC2F32105DB0600712E82 /* SplashTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				ADEBC2D42105D7CC00712E82 /* LeisureMapTests */,
 				ADEBC2DF2105D7CC00712E82 /* LeisureMapUITests */,
 				ADEBC2BE2105D7CB00712E82 /* Products */,
+				ADEBC2EE2105D99C00712E82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +100,14 @@
 		ADEBC2BF2105D7CB00712E82 /* LeisureMap */ = {
 			isa = PBXGroup;
 			children = (
+				ADEBC2F52105DBF000712E82 /* LoginFlow */,
 				ADEBC2C02105D7CB00712E82 /* AppDelegate.swift */,
 				ADEBC2C22105D7CB00712E82 /* ViewController.swift */,
 				ADEBC2C42105D7CB00712E82 /* Main.storyboard */,
 				ADEBC2C72105D7CC00712E82 /* Assets.xcassets */,
 				ADEBC2C92105D7CC00712E82 /* LaunchScreen.storyboard */,
 				ADEBC2CC2105D7CC00712E82 /* Info.plist */,
+				ADEBC2F32105DB0600712E82 /* SplashTableViewController.swift */,
 			);
 			path = LeisureMap;
 			sourceTree = "<group>";
@@ -123,6 +128,20 @@
 				ADEBC2E22105D7CC00712E82 /* Info.plist */,
 			);
 			path = LeisureMapUITests;
+			sourceTree = "<group>";
+		};
+		ADEBC2EE2105D99C00712E82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADEBC2F52105DBF000712E82 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +212,14 @@
 				TargetAttributes = {
 					ADEBC2BC2105D7CB00712E82 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					ADEBC2D02105D7CC00712E82 = {
 						CreatedOnToolsVersion = 10.0;
@@ -256,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEBC2F42105DB0600712E82 /* SplashTableViewController.swift in Sources */,
 				ADEBC2C32105D7CB00712E82 /* ViewController.swift in Sources */,
 				ADEBC2C12105D7CB00712E82 /* AppDelegate.swift in Sources */,
 			);
