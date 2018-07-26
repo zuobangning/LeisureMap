@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122D6362B77A0CD5800403D5 /* Pods_LeisureMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C83CEB6DD74AED28EFC1B /* Pods_LeisureMapTests.framework */; };
+		3AE5F498E1F94271A9AFADEC /* Pods_LeisureMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4199AD992AC00D58F277E3E8 /* Pods_LeisureMap.framework */; };
 		AD2A371D21085925008D7CED /* MasterViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A371C21085925008D7CED /* MasterViewControler.swift */; };
 		AD2A371F2108593D008D7CED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A371E2108593D008D7CED /* DetailViewController.swift */; };
 		AD2A3722210859FD008D7CED /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A3721210859FD008D7CED /* MapViewController.swift */; };
 		AD2A372521085A22008D7CED /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A372421085A22008D7CED /* NoteViewController.swift */; };
 		AD2A372921085BEE008D7CED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A372821085BEE008D7CED /* LoginViewController.swift */; };
+		AD7C1FAC2109617700138411 /* NetWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C1FAB2109617700138411 /* NetWorker.swift */; };
 		ADEBC2C12105D7CB00712E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2C02105D7CB00712E82 /* AppDelegate.swift */; };
 		ADEBC2C32105D7CB00712E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2C22105D7CB00712E82 /* ViewController.swift */; };
 		ADEBC2C62105D7CB00712E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEBC2C42105D7CB00712E82 /* Main.storyboard */; };
@@ -19,7 +22,8 @@
 		ADEBC2CB2105D7CC00712E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEBC2C92105D7CC00712E82 /* LaunchScreen.storyboard */; };
 		ADEBC2D62105D7CC00712E82 /* LeisureMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2D52105D7CC00712E82 /* LeisureMapTests.swift */; };
 		ADEBC2E12105D7CC00712E82 /* LeisureMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2E02105D7CC00712E82 /* LeisureMapUITests.swift */; };
-		ADEBC2F42105DB0600712E82 /* SplashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2F32105DB0600712E82 /* SplashTableViewController.swift */; };
+		ADEBC2F42105DB0600712E82 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC2F32105DB0600712E82 /* SplashViewController.swift */; };
+		E59AF497A6940C64D42BED24 /* Pods_LeisureMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D974927A95866AEA5F1E0B8 /* Pods_LeisureMapUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D974927A95866AEA5F1E0B8 /* Pods_LeisureMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F28FE92506D10218E9D65C /* Pods-LeisureMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMap/Pods-LeisureMap.release.xcconfig"; sourceTree = "<group>"; };
+		351B46951663A5D617C9C191 /* Pods-LeisureMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMap/Pods-LeisureMap.debug.xcconfig"; sourceTree = "<group>"; };
+		4199AD992AC00D58F277E3E8 /* Pods_LeisureMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691C83CEB6DD74AED28EFC1B /* Pods_LeisureMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805B6C6381258B1E20D5C8FC /* Pods-LeisureMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E8A7CDF9186B5F2C13EAFF9 /* Pods-LeisureMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB504C9EAD5BB196A954F05B /* Pods-LeisureMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD2A371C21085925008D7CED /* MasterViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewControler.swift; sourceTree = "<group>"; };
 		AD2A371E2108593D008D7CED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AD2A3721210859FD008D7CED /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AD2A372421085A22008D7CED /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		AD2A372821085BEE008D7CED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AD7C1FAB2109617700138411 /* NetWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorker.swift; sourceTree = "<group>"; };
 		ADEBC2BD2105D7CB00712E82 /* LeisureMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeisureMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEBC2C02105D7CB00712E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADEBC2C22105D7CB00712E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +71,8 @@
 		ADEBC2DC2105D7CC00712E82 /* LeisureMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeisureMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEBC2E02105D7CC00712E82 /* LeisureMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureMapUITests.swift; sourceTree = "<group>"; };
 		ADEBC2E22105D7CC00712E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADEBC2F32105DB0600712E82 /* SplashTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTableViewController.swift; sourceTree = "<group>"; };
+		ADEBC2F32105DB0600712E82 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		E0B510DBBCA4BBABDFA896F6 /* Pods-LeisureMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE5F498E1F94271A9AFADEC /* Pods_LeisureMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122D6362B77A0CD5800403D5 /* Pods_LeisureMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59AF497A6940C64D42BED24 /* Pods_LeisureMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41F0609E894B28C240C7E7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351B46951663A5D617C9C191 /* Pods-LeisureMap.debug.xcconfig */,
+				17F28FE92506D10218E9D65C /* Pods-LeisureMap.release.xcconfig */,
+				E0B510DBBCA4BBABDFA896F6 /* Pods-LeisureMapTests.debug.xcconfig */,
+				9E8A7CDF9186B5F2C13EAFF9 /* Pods-LeisureMapTests.release.xcconfig */,
+				AB504C9EAD5BB196A954F05B /* Pods-LeisureMapUITests.debug.xcconfig */,
+				805B6C6381258B1E20D5C8FC /* Pods-LeisureMapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD2A371B210858F6008D7CED /* MasterDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +141,14 @@
 			path = NoteFlow;
 			sourceTree = "<group>";
 		};
+		AD7C1FAA2109613C00138411 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				AD7C1FAB2109617700138411 /* NetWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
 		ADEBC2B42105D7CB00712E82 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +157,7 @@
 				ADEBC2DF2105D7CC00712E82 /* LeisureMapUITests */,
 				ADEBC2BE2105D7CB00712E82 /* Products */,
 				ADEBC2EE2105D99C00712E82 /* Frameworks */,
+				41F0609E894B28C240C7E7CF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +174,7 @@
 		ADEBC2BF2105D7CB00712E82 /* LeisureMap */ = {
 			isa = PBXGroup;
 			children = (
+				AD7C1FAA2109613C00138411 /* Worker */,
 				AD2A372321085A05008D7CED /* NoteFlow */,
 				AD2A372021085942008D7CED /* MapFlow */,
 				AD2A371B210858F6008D7CED /* MasterDetail */,
@@ -145,7 +185,7 @@
 				ADEBC2C72105D7CC00712E82 /* Assets.xcassets */,
 				ADEBC2C92105D7CC00712E82 /* LaunchScreen.storyboard */,
 				ADEBC2CC2105D7CC00712E82 /* Info.plist */,
-				ADEBC2F32105DB0600712E82 /* SplashTableViewController.swift */,
+				ADEBC2F32105DB0600712E82 /* SplashViewController.swift */,
 			);
 			path = LeisureMap;
 			sourceTree = "<group>";
@@ -171,6 +211,9 @@
 		ADEBC2EE2105D99C00712E82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4199AD992AC00D58F277E3E8 /* Pods_LeisureMap.framework */,
+				691C83CEB6DD74AED28EFC1B /* Pods_LeisureMapTests.framework */,
+				0D974927A95866AEA5F1E0B8 /* Pods_LeisureMapUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEBC2E52105D7CC00712E82 /* Build configuration list for PBXNativeTarget "LeisureMap" */;
 			buildPhases = (
+				FE305ADB18E3926EF1458061 /* [CP] Check Pods Manifest.lock */,
 				ADEBC2B92105D7CB00712E82 /* Sources */,
 				ADEBC2BA2105D7CB00712E82 /* Frameworks */,
 				ADEBC2BB2105D7CB00712E82 /* Resources */,
+				3CC009C54CBB9EC4449A169C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEBC2E82105D7CC00712E82 /* Build configuration list for PBXNativeTarget "LeisureMapTests" */;
 			buildPhases = (
+				34E3F965878E9F15D0FEE9CE /* [CP] Check Pods Manifest.lock */,
 				ADEBC2CD2105D7CC00712E82 /* Sources */,
 				ADEBC2CE2105D7CC00712E82 /* Frameworks */,
 				ADEBC2CF2105D7CC00712E82 /* Resources */,
@@ -225,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEBC2EB2105D7CC00712E82 /* Build configuration list for PBXNativeTarget "LeisureMapUITests" */;
 			buildPhases = (
+				286ED65594330ED0966DC11D /* [CP] Check Pods Manifest.lock */,
 				ADEBC2D82105D7CC00712E82 /* Sources */,
 				ADEBC2D92105D7CC00712E82 /* Frameworks */,
 				ADEBC2DA2105D7CC00712E82 /* Resources */,
@@ -317,19 +364,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		286ED65594330ED0966DC11D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeisureMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E3F965878E9F15D0FEE9CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeisureMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC009C54CBB9EC4449A169C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LeisureMap/Pods-LeisureMap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeisureMap/Pods-LeisureMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE305ADB18E3926EF1458061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeisureMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADEBC2B92105D7CB00712E82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD2A372521085A22008D7CED /* NoteViewController.swift in Sources */,
-				ADEBC2F42105DB0600712E82 /* SplashTableViewController.swift in Sources */,
+				ADEBC2F42105DB0600712E82 /* SplashViewController.swift in Sources */,
 				AD2A3722210859FD008D7CED /* MapViewController.swift in Sources */,
 				ADEBC2C32105D7CB00712E82 /* ViewController.swift in Sources */,
 				AD2A372921085BEE008D7CED /* LoginViewController.swift in Sources */,
 				AD2A371F2108593D008D7CED /* DetailViewController.swift in Sources */,
 				ADEBC2C12105D7CB00712E82 /* AppDelegate.swift in Sources */,
 				AD2A371D21085925008D7CED /* MasterViewControler.swift in Sources */,
+				AD7C1FAC2109617700138411 /* NetWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +627,7 @@
 		};
 		ADEBC2E62105D7CC00712E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B46951663A5D617C9C191 /* Pods-LeisureMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +645,7 @@
 		};
 		ADEBC2E72105D7CC00712E82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F28FE92506D10218E9D65C /* Pods-LeisureMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +663,7 @@
 		};
 		ADEBC2E92105D7CC00712E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B510DBBCA4BBABDFA896F6 /* Pods-LeisureMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +684,7 @@
 		};
 		ADEBC2EA2105D7CC00712E82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8A7CDF9186B5F2C13EAFF9 /* Pods-LeisureMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +705,7 @@
 		};
 		ADEBC2EC2105D7CC00712E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB504C9EAD5BB196A954F05B /* Pods-LeisureMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -595,6 +725,7 @@
 		};
 		ADEBC2ED2105D7CC00712E82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805B6C6381258B1E20D5C8FC /* Pods-LeisureMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
