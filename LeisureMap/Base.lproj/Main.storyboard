@@ -95,7 +95,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Vds-pW-XDx"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Login"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

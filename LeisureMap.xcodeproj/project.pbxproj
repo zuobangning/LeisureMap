@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		122D6362B77A0CD5800403D5 /* Pods_LeisureMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C83CEB6DD74AED28EFC1B /* Pods_LeisureMapTests.framework */; };
 		3AE5F498E1F94271A9AFADEC /* Pods_LeisureMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4199AD992AC00D58F277E3E8 /* Pods_LeisureMap.framework */; };
+		AD010F252109CF27009EBEB5 /* FileWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD010F242109CF27009EBEB5 /* FileWorker.swift */; };
 		AD2A371D21085925008D7CED /* MasterViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A371C21085925008D7CED /* MasterViewControler.swift */; };
 		AD2A371F2108593D008D7CED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A371E2108593D008D7CED /* DetailViewController.swift */; };
 		AD2A3722210859FD008D7CED /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A3721210859FD008D7CED /* MapViewController.swift */; };
@@ -52,6 +53,7 @@
 		805B6C6381258B1E20D5C8FC /* Pods-LeisureMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9E8A7CDF9186B5F2C13EAFF9 /* Pods-LeisureMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB504C9EAD5BB196A954F05B /* Pods-LeisureMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD010F242109CF27009EBEB5 /* FileWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorker.swift; sourceTree = "<group>"; };
 		AD2A371C21085925008D7CED /* MasterViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewControler.swift; sourceTree = "<group>"; };
 		AD2A371E2108593D008D7CED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AD2A3721210859FD008D7CED /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7C1FAB2109617700138411 /* NetWorker.swift */,
+				AD010F242109CF27009EBEB5 /* FileWorker.swift */,
 			);
 			path = Worker;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				AD2A372521085A22008D7CED /* NoteViewController.swift in Sources */,
 				ADEBC2F42105DB0600712E82 /* SplashViewController.swift in Sources */,
 				AD2A3722210859FD008D7CED /* MapViewController.swift in Sources */,
+				AD010F252109CF27009EBEB5 /* FileWorker.swift in Sources */,
 				ADEBC2C32105D7CB00712E82 /* ViewController.swift in Sources */,
 				AD2A372921085BEE008D7CED /* LoginViewController.swift in Sources */,
 				AD2A371F2108593D008D7CED /* DetailViewController.swift in Sources */,

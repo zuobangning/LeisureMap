@@ -8,14 +8,31 @@
 
 import UIKit
 
-class LoginViewController: UIViewController ,UITextFieldDelegate{
+class LoginViewController: UIViewController ,UITextFieldDelegate, AsyncReponseDelegate{
+    func receiveResponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
+        <#code#>
+    }
+    
+//    func receiveResponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
+//
+//    }
+    
+   
+    
     
     @IBOutlet weak var textField: UITextField!
     
     @IBOutlet weak var UIButton: UIButton!
+    
     @IBOutlet weak var txtPassword: UITextField!
+    
+    @IBOutlet weak var txtAccount: UITextField!
+    
+    var requestWorker : AsyncRequestWorker?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -23,8 +40,35 @@ class LoginViewController: UIViewController ,UITextFieldDelegate{
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    @IBAction func btnLoginClicked(_ sender: Any){
+        _ = txtAccount.text!
+        _ = txtPassword.text!
+        
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("wiewWillAppear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+            print("viewDidAppear")
+        }
     
     
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+       print("viewWillDisappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidDisappear")
+    }
     
     
   func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -69,6 +113,16 @@ class LoginViewController: UIViewController ,UITextFieldDelegate{
         return true
     }
     
-
+    func receviedReponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int){
+        print(responseString)
+        // let default : UserDefaults=UserDefaults.standard
+        
+        
+        //defaults.set(responseString, forKey: "serviceVersion")
+        //defaults.synchronize()
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier: "moveTologinViewSegue", sender: self)
+        }
+    }
    
 }
